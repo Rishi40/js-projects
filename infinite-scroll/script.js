@@ -77,6 +77,7 @@ function imageLoaded() {
 	imagesLoaded++;
 	if (totalImages === imagesLoaded) {
 		ready = true;
+		loader.hidden = true;
 	}
 }
 
